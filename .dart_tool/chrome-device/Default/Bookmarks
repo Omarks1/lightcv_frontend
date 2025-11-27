@@ -1,0 +1,72 @@
+{
+   "checksum": "94ab0b71442cb3c05307e2e597b3426c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13286357551315064",
+               "date_last_used": "0",
+               "guid": "6cb3bc72-da58-4927-9d91-3fbb2e605c43",
+               "id": "7",
+               "name": "Acer",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "http://www.acer.com/",
+               "visit_count": 0
+            } ],
+            "date_added": "13330010430103446",
+            "date_last_used": "0",
+            "date_modified": "13330010430103446",
+            "guid": "fcf1a7fe-625e-4173-a59d-c09bbc06662a",
+            "id": "6",
+            "name": "Acer",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "date_added": "13297351370166918",
+            "date_last_used": "0",
+            "guid": "cb85c2c3-3332-4326-aadd-9d584f9713f6",
+            "id": "8",
+            "name": "Important form",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSdl29k5HD0o7UAWZ-EyoPdU1weKkFUbMDLYRHFaYRYrSlF7XA/viewform",
+            "visit_count": 0
+         } ],
+         "date_added": "13402901452682775",
+         "date_last_used": "0",
+         "date_modified": "13297351370166918",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13402901452682775",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13402901452682775",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CkEKHgiIgQISCE+9c2qZAQAAKg4QABgBIAAoBjAAOABAABIAKhhLUXdhKzJHdTBpMVhlUG9mN3FRNUxRPT1IA6AGDBKtAQgIEqgBChxTaDhnaFN2RWdwa2lwK1JEZmJVK0FvWDF5NGs9EiRjYjg1YzJjMy0zMzMyLTQzMjYtYWFkZC05ZDU4NGY5NzEzZjYYACAAKAAwkaqHktkyOKTbyoW6MUCk28qFujFKHFRTa1pDV1ZVbTdQVXp2bXRmZ3c4TVlGZ3Vvdz1aHyIdp0lOYzV6VlFCVFNLVDYxTHFNcG04NWxVeHpHYz1lo60cX8I+AmAFEqwBCAcSpwEKHDRia1d1S2dvcXpVNlU5NU9LZitueGJhL09zdz0SJDZjYjNiYzcyLWRhNTgtNDkyNy05ZDkxLTNmYmIyZTYwNWM0MxgAIAAoADC/+suOhzE4yvvLjocxQMr7y46HMUocbEtFN0V2aFo4cjVwODVKNDNBMlkyaEo0R2NBPVoeIhxVUUNTeG5YUFFGcm94SDZIVjI2b2NiZjQrTVk9ZQAAAADCPgJgBRKOAQgCEokBChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiQ5MjI4YTNjYy03OWZjLTVlZjYtYTcwMy1mMGQ5MzI3YjUxOTgYACAAKAAw8q2WruQvOJG5+cP+L0CRufnD/i9KHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAwj4CYAASrAEIBhKnAQocMnhrSW04T0NsTlFMcG5kQ2dyWEVqOHZTZDJ3PRIkZmNmMWE3ZmUtNjI1ZS00MTczLWE1OWQtYzA5YmJjMDY2NjJhGAAgACgAML76y46HMTiJ+8uOhzFAifvLjocxShw5Rlc5NzhiaWhUKzV2WXRzQzZyN21KczBmOEU9Wh4iHE5BWGhKVHJRS2RxL2txTHMwbWhyYjdwbmYzOD1lAAAAAMI+AmAAEo4BCAESiQEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJDE5NmU5YjRiLTNhMmQtNTNhNC1iZjQ2LWQ4Y2NjYThmMWQzOBgAIAAoADDyrZau5C840rj5w/4vQNK4+cP+L0ocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAADCPgJgABKOAQgDEokBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiRmMDQyZWYwOC1hMGVjLTUzYjAtYmQ5Ny05NzUxMzhkNjdhNzkYACAAKAAw8q2WruQvOLC5+cP+L0CwufnD/i9KHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAwj4CYAAwADgA",
+   "version": 1
+}

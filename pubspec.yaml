@@ -1,0 +1,41 @@
+name: cv_chatbot
+description: AI CV builder chatbot
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP requests
+  http: ^1.1.0
+  dio: ^5.3.2
+  
+  # State management
+  provider: ^6.0.5
+  
+  # UI components
+  material_design_icons_flutter: ^7.0.7296
+  
+  # File handling
+  file_picker: ^6.1.1
+  
+  # Local storage
+  shared_preferences: ^2.2.2
+  
+  # Utils
+  intl: ^0.19.0
+  uuid: ^4.1.0
+  
+  # PDF handling (for web)
+  universal_html: ^2.2.4
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

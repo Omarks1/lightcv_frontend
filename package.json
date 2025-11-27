@@ -1,0 +1,16 @@
+{
+  "name": "cv-chatbot-frontend",
+  "version": "1.0.0",
+  "description": "CV Chatbot Flutter Frontend",
+  "scripts": {
+    "start": "flutter run -d web-server --web-port=3000",
+    "build": "flutter build web --release",
+    "serve": "flutter run -d web-server --web-port=3000 --release",
+    "tunnel": "npx localtunnel --port 3000",
+    "dev": "concurrently \"npm run start\" \"sleep 10 && npm run tunnel\""
+  },
+  "devDependencies": {
+    "localtunnel": "^2.0.2",
+    "concurrently": "^8.2.2"
+  }
+}
