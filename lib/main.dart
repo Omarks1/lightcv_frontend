@@ -52,7 +52,8 @@ class _ChatScreenState extends State<ChatScreen> {
 
     try {
       final response = await http.post(
-        Uri.parse('https://light2-0hp2slxl.b4a.run/api/chat/send_message'),
+        Uri.parse('https://lightcv-backend-u24b-50pt0ow12.vercel.app/api/chat/send_message'),
+        // Uri.parse('http://localhost:5000/api/chat/send_message'),
         headers: {'Content-Type': 'application/json'},
         body: json.encode({
           'session_id': _sessionId,
@@ -426,7 +427,8 @@ class _ChatScreenState extends State<ChatScreen> {
   Future<void> _startConversation() async {
     try {
       final response = await http.post(
-        Uri.parse('https://light2-0hp2slxl.b4a.run/api/chat/start_conversation'),
+        Uri.parse('https://lightcv-backend-u24b-50pt0ow12.vercel.app/api/chat/start_conversation'),
+        // Uri.parse('http://localhost:5000/api/chat/start_conversation'),
         headers: {'Content-Type': 'application/json'},
         body: json.encode({}),
       );
