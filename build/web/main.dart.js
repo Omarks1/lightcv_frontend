@@ -40248,7 +40248,7 @@ break}n.aj(new A.ahE(n,a))
 n.d.kv(0,B.O0)
 n.r=null
 p=4
-j=A.hp("https://lightcv-backend-u24b-50pt0ow12.vercel.app/api/chat/send_message")
+j=A.hp("https://lightcvbackend-production.up.railway.app/api/chat/send_message")
 i=t.N
 h=A.ar(["Content-Type","application/json"],i,i)
 s=7
@@ -40337,7 +40337,7 @@ this.wU()},
 wU(){var s=0,r=A.Y(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g
 var $async$wU=A.T(function(a,b){if(a===1){p.push(b)
 s=q}while(true)switch(s){case 0:q=3
-k=A.hp("https://lightcv-backend-u24b-50pt0ow12.vercel.app/api/chat/start_conversation")
+k=A.hp("https://lightcvbackend-production.up.railway.app/api/chat/start_conversation")
 j=t.N
 j=A.ar(["Content-Type","application/json"],j,j)
 i=t.z
