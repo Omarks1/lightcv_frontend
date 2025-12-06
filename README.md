@@ -83,3 +83,51 @@ lib/
 - `flutter build web --release` - Production build  
 - `docker build -t cv-chatbot-frontend .` - Docker build
 - `npm run dev` - Development with tunnel
+
+## Deployment Guide (GitHub Pages)
+
+### First-Time Setup
+
+1. **Build the web app**
+```bash
+   flutter build web --release --base-href "/lightcv_frontend/"
+```
+
+2. **Initialize git in the build folder**
+```bash
+   cd build/web
+   git init
+   git checkout -b master
+```
+
+3. **Connect to your GitHub repo**
+```bash
+   git remote add origin https://github.com/your-username/lightcv_frontend.git
+```
+
+4. **Commit and push**
+```bash
+   git add .
+   git commit -m "Initial deploy"
+   git push -f origin master:gh-pages
+```
+
+5. **Enable GitHub Pages**
+   - Go to your repo on GitHub
+   - Settings → Pages
+   - Source: Deploy from a branch
+   - Branch: gh-pages / root
+   - Click Save
+
+Live URL: `https://your-username.github.io/lightcv_frontend/`
+
+---
+
+### Future Deployments
+```bash
+flutter build web --release --base-href "/lightcv_frontend/"
+cd build/web
+git add .
+git commit -m "Deploy"
+git push -f origin master:gh-pages
+```
