@@ -1,0 +1,16 @@
+.git
+.gitignore
+README.md
+Dockerfile
+.dockerignore
+.dart_tool/
+.packages
+.pub/
+build/
+ios/
+android/
+linux/
+macos/
+windows/
+test/
+.metadata
